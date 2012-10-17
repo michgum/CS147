@@ -83,6 +83,8 @@ function HelloWorld4() {
 	
 	// This is now an array
 	$pieces = explode(" ", $string);
+	print_r($pieces);
+	echo $pieces;
 	echo $pieces[0]." ".$pieces[1];
 }
 
